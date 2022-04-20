@@ -63,8 +63,9 @@ header {
   background: #f0f6f0;
   border: solid 4px #222323;
   border-radius: 30px;
-  /* display: none; */
+  display: none;
 }
+
 
 .log-in_title {
   width: 80%;
