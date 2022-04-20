@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Puzzle</title>
+  <link rel="stylesheet" href=".\styles\MainPageStyle.css">
+</head>
+<body class="main">
+  <header>
+    <div class="header_content">
+      <div class="logo">QRPuzzle</div>
+      <div class="buttons">
+        <div class="log_in">log-in</div>
+        <div class="sign_in">sign-in</div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="modal-window_log-in">
+      <div class="log-in_title">
+        <p class="reg-title">Регистрация</p>
+        <div class="log-in_close">&#215;</div>
+      </div>
+      <div class="log-in_login">
+        <p>Введите логин</p>
+        <input type="text" class="login-pass" value="Введите логин">
+      </div>
+      <div class="log-in_first-password"> 
+        <p>Введите новый пароль</p>
+        <input type="password" class="login-pass" value="Пароль">
+      </div>
+      <div class="log-in_second-password"> 
+        <p>Введите новый пароль</p>
+        <input type="password" class="login-pass" value="Пароль">
+      </div>
+      <div class="log-in_registration">
+        <p>Зарегистрироваться</p>
+      </div>
+      <div class="log-in_sign-in">
+        Войти в акккаунт
+      </div>
+    </div>
+    <div class="modal-window_sign-in">
+
+    </div>
+
+    <div class="modal-window_create-new-game">
+      <div class="modal-window-creating_close">
+        &#215;
+      </div>
+      <div class="modal-window-creating_title">
+        Создать анонимную игру
+      </div>
+      <div class="modal-window-creating_buttons">
+        <a href="HostPage.html" class="modal-window-creating_create-game">
+          Создать игру
+        <a/>
+        <div class="modal-window-creating_sign-in">
+          Войти
+        </div>
+      </div>
+    </div>
+    <div class="modal-window_join-to-game">
+      <div class="modal-window-join_close">
+        &#215;
+      </div>
+      <div class="modal-window-join_title">
+        <p>Присоединиться к игре</p>
+        <input class="modal-window-join_input-name" value="Введите ваше иaaaмя" type="text">
+      </div>
+      <a href="GamePage.html" class="join-to-game">
+        <p>Продолжить новым игроком</p>
+      </a>
+      <div class="modal-window-join_buttons">
+        <div class="modal-window-join_sign-in">
+          Войти
+        </div>
+        <a href="GamePage.html" class="modal-window-join_create-game">
+          <p>Продолжить</p>
+        </a>
+          
+      </div>
+    </div>
+    <div class="content_top">
+      <button class="button_create-game">
+        <p>Создать игру</p>
+      </button>
+    </div>
+    <div class="content_bot">
+      <button class="button_join-game">
+        <p>Присоединиться к игре</p>
+      </button>
+    </div>
+  </main>
+  <footer>
+    <p>Создано командой "No Homo"</p>
+  </footer>
+</body>
+<script src="/scripts/MainPage.js"></script>
+</html>
