@@ -7,5 +7,4 @@ def index(request):
 
 
 def CreateGame(request):
-
-    return HttpResponse("<h1>Game</h1>")
+    return render(request, 'main/HostPage.html')

@@ -1,0 +1,191 @@
+* {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background: #222323;
+}
+
+.logo {
+  width: 200px;
+  height: 80px;
+  padding: 30px;
+  font-size: 60px;
+  align-items: center;
+  color: #f0f6f0;
+}
+
+.description-modal-window {
+  width: 80%;
+  height: 900px;
+  margin: auto;
+  position: absolute;
+  top: 700px;
+  left: 10%;
+  z-index: 1;
+  background: #f0f6f0;
+  border: solid 4px #222323;
+  border-radius: 30px;
+  /*display: none;*/
+}
+
+.description-modal-window_close {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  top: 20px;
+  left: calc(100% - 90px);
+  border-radius: 5px;
+  background: #222323;
+  cursor: pointer;
+  color: #f0f6f0;
+  font-size: 70px;
+  text-align: center;
+}
+
+.description-modal-window_title {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.description-modal-window_image {
+  width: 90%;
+  height: 350px;
+  margin: 50px auto;
+  border: solid 2px #222323;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.description-modal-window_description {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  border: solid 2px #222323;
+  border-radius: 10px;
+}
+
+.description-modal-window_save {
+  width: 60%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 20px;
+  background: #222323;
+  font-size: 40px;
+  color: #f0f6f0;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.content-top {
+  width: 100%;
+  height: 1000px;
+  background: #222323;
+
+}
+
+.top-suptitle, .top-subtitle {
+  height: auto;
+  width: auto;
+  margin: auto;
+  padding-top: 100px;  
+  font-size: 60px;
+  color: #f0f6f0;
+  text-align: center;
+}
+
+.input-file {
+  width: 60%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin:  150px auto;
+  background: #f0f6f0;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.download-file {
+  width: 60%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 20px;
+  background: #f0f6f0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.content-bot {
+  width: 100%;
+  height: 1000px;
+  background: #f0f6f0;
+}
+
+.bot-suptitle, .bot-subtitle {
+  width: 100%;
+  margin: auto;
+  padding-top: 80px;
+  text-align: center;
+  color: #222323;
+  font-size: 60px;
+}
+
+.create-game {
+  width: 60%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 20px;
+  background: #222323;
+  font-size: 40px;
+  color: #f0f6f0;
+  cursor: pointer;
+}
+
+.add-description {
+  width: 60%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 20px;
+  background: #222323;
+  font-size: 40px;
+  color: #f0f6f0;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background: #f0f6f0;
+  padding: 30px 0;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+}
