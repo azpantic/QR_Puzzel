@@ -1,4 +1,4 @@
- {
+* {
   width: 100%;
   margin: 0;
 }
@@ -66,7 +66,6 @@ header {
   display: none;
 }
 
-
 .log-in_title {
   width: 80%;
   margin: auto;
@@ -74,7 +73,6 @@ header {
   justify-content: space-between;
   align-items: center;
   font-size: 40px;
-  /* text-align: center; */
   padding-top: 40px;
 }
 
@@ -133,7 +131,7 @@ header {
   text-decoration: underline;
 }
 
-.modal-window-sign-in {
+.modal-window_sign-in {
   width: 80%;
   height: 900px;
   margin: auto;
@@ -145,6 +143,64 @@ header {
   border: solid 4px #222323;
   border-radius: 30px;
   display: none;
+}
+
+.sign-in_title {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.auth-title {
+  width: 40%; 
+}
+
+.sign-in_close {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  background: #222323;
+  cursor: pointer;
+  color: #f0f6f0;
+  font-size: 70px;
+  text-align: center;
+}
+
+.sign-in_login, .log-in_first-password {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+.sign-in_continue {
+  height: 90px;
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px #222323;
+  border-radius: 20px;
+  font-size: 30px;
+  background: #222323;
+  color: #f0f6f0;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sign-in_log-in {
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
 }
 
 main {
