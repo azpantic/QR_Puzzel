@@ -8,3 +8,6 @@ def index(request):
 
 def CreateGame(request):
     return render(request, 'main/HostPage.html')
+
+def Game(request):
+    return render(request, 'main/GamePage.html')
